@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Onibus Atividade</string>
+
+    <string-array name="tipoBusao">
+        <item>Leito</item>
+        <item>Convencional</item>
+
+    </string-array>
+</resources>

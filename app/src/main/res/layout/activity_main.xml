@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="15dp"
+    >
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Busão"
+        />
+
+    <EditText
+        android:id="@+id/editTextOrigemDestinoBusao"
+        android:textSize="15sp"
+        android:hint="Origem/Destino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/editTextMarcaBusao"
+        android:textSize="15sp"
+        android:hint="Marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/editTextModeloBusao"
+        android:textSize="15sp"
+        android:hint="Modelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/editTextAssentosBusao"
+        android:textSize="15sp"
+        android:hint="Assentos Totais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/editTextTipoBusao"
+        android:entries="@array/tipoBusao"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:text="Adicionar"
+        android:onClick="novoBusao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ListView
+        android:layout_margin="15dp"
+        android:id="@+id/listViewBusoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
